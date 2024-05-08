@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/output.css">
+  <title>Compette</title>
+</head>
+<body class="bg-[#fafaff]">
+  <!-- header start -->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <!-- logo -->
+        <div class="px-4 w-1/2">
+          <a href="#home" class="py-6 block">
+            <img src="src/img/logo.png" alt="logo" class="w-24 md:w-32">
+          </a>
+        </div>
+        <div class="flex items-center px-4 w-1/2">
+          <!-- menu hamburger -->
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+          </button>
+          <!-- menu navigasi -->
+          <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="lg:flex justify-end">
+              <li><a href="#learn" class="flex font-medium text-base lg:text-white py-1 my-3 mx-8 lg:mx-4 lg:hover:text-gold">Learn</a></li>
+              <li><a href="#categories" class="flex font-medium text-base lg:text-white py-1 my-3 mx-8 lg:mx-4 lg:hover:text-gold">Categories</a></li>
+              <li><a href="#stories" class="flex font-medium text-base lg:text-white py-1 my-3 mx-8 lg:mx-4 lg:hover:text-gold">Stories</a></li>
+              <li><a href="#partner" class="flex font-medium text-base lg:text-white py-1 my-3 mx-8 lg:mx-4 lg:hover:text-gold">Partner</a></li>
+              <li><a href="#investor" class="flex font-medium text-base lg:text-white py-1 my-3 mx-8 lg:mx-4 lg:hover:text-gold">Investor</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- main start -->
+  <main>
+    <!-- hero section start -->
+    <section id="home" class="pt-20 lg:pt-36 relative">
+      <img src="src/img/bg.png" alt="background" class="absolute -z-10 top-0 lg:top-full right-0 w-full lg:-translate-y-[70%]" />
+      <div class="container">
+        <div class="flex flex-wrap">
+          <!-- side left -->
+          <div class="w-full self-center px-4 text-center">
+            <h1 class="font-semibold text-3xl text-white md:text-4xl lg:text-5xl xl:text-6xl mt-5" style="text-shadow: 1px 5px 8px rgba(0,0,0,0.6);">Build Your Career. <br class="mb-2 lg:mb-4"> Grow Together & Faster.</h1>
+            <div class="relative flex items-center justify-center mt-[25px] md:mt-10 lg:mt-14">
+              <a href="#" class="font-bold text-sm md:text-[18px] text-[#564318] bg-gold py-2 px-5 lg:py-4 lg:px-10 rounded-full shadow-lg md:shadow-xl hover:bg-[#fcdc91] ease-in-out duration-300 active:bg-opacity-50">Explore Mine</a>
+              <a href="#" class="font-bold text-sm md:text-[18px] text-[#564318] bg-gold py-2 px-5 lg:py-2 lg:px-10 rounded-full shadow-lg md:shadow-xl hover:bg-[#fcdc91] ease-in-out duration-300 active:bg-opacity-50 blur-xl absolute top-4 -z-10">Explore Mine</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+    <!-- illustration and product company start -->
+    <div class="flex items-center justify-between flex-col w-fit mt-14 mx-auto">
+      <img src="src/img/illustration.png" alt="illustration image hero" class="object-cover rounded-full pointer-events-none">
+      <span class="flex flex-wrap px-4 gap-y-6 items-center w-full justify-between mt-10">
+        <img src="src/img/facebook.png" alt="facebook" class="max-w-32">
+        <img src="src/img/microsoft.png" alt="microsoft" class="max-w-32">
+        <img src="src/img/google.png" alt="google" class="max-w-32">
+        <img src="src/img/spotify.png" alt="spotify" class="max-w-32">
+      </span>
+    </div>
+    <!-- illustration and product company end -->
+    <!-- about start -->
+    <section id="about" class="about pt-40">
+      <div class="container">
+        <div class="flex flex-wrap mt-10">
+          <!-- side left -->
+          <div class="w-full px-4 lg:w-1/2">
+            <div class="mt-10 lg:mt-0">
+              <img src="src/img/gallery.png" alt="gallery" class="max-w-full mx-auto pointer-events-none">
+            </div>
+          </div>
+          <!-- side right -->
+          <div class="w-full self-center px-4 mt-9 lg:w-1/2 lg:mt-0">
+            <h2 class="font-semibold text-3xl md:text-4xl lg:text-3xl lg:leading-tight xl:text-4xl xl:leading-tigh text-dark">We Are The Most Trusted And<br>Dedicated Real Estate Agent</h2>
+            <!-- list -->
+            <div class="w-full mt-5 lg:mt-10">
+              <div class="flex items-center mb-3">
+                <div class="p-3 bg-langit rounded-full">
+                  <img src="src/img/dot.png" alt="check" class="max-w-5">
+                </div>
+                <p class="font-medium text-base pl-4 text-dark">Mastering work-life-balance</p>
+              </div>
+              <div class="flex items-center mb-3">
+                <div class="p-3 bg-langit rounded-full">
+                  <img src="src/img/dot(1).png" alt="check" class="max-w-5">
+                </div>
+                <p class="font-medium text-base pl-4 text-dark">Find the job based on your skills</p>
+              </div>
+              <div class="flex items-center mb-3">
+                <div class="p-3 bg-langit rounded-full">
+                  <img src="src/img/dot.png" alt="check" class="max-w-5">
+                </div>
+                <p class="font-medium text-base pl-4 text-dark">Helping preparing the paperwork</p>
+              </div>
+              <div class="flex items-center mb-3">
+                <div class="p-3 bg-langit rounded-full">
+                  <img src="src/img/dot(1).png" alt="check" class="max-w-5">
+                </div>
+                <p class="font-medium text-base pl-4 text-dark">24/7 Best worker support</p>
+              </div>
+              <div class="flex items-center mb-3">
+                <div class="p-3 bg-langit rounded-full">
+                  <img src="src/img/dot.png" alt="check" class="max-w-5">
+                </div>
+                <p class="font-medium text-base pl-4 text-dark">Trusted payment protection</p>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="flex justify-start mt-5 lg:mt-10">
+              <a href="#" class="text-sm md:text-[18px] py-2 lg:py-4 underline hover:no-underline">LEARN MORE ABOUT OUR BENEFIT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+    <!-- Feature Jobs section start -->
+    <section id="feature-jobs" class="pt-40">
+      <div class="container">
+        <!-- judul -->
+        <div class="w-full px-4">
+          <h2 class="font-semibold text-3xl lg:text-[46px] mb-[30px] mx-auto text-center leading-tight">Our Feature Jobs<br>That Might You Need</h2>
+        </div>
+        <!-- card choise -->
+        <div class="flex flex-wrap mt-20">
+          <div class="w-full px-4 lg:w-1/3 xl:w-1/4">
+            <div class="bg-white rounded-xl shadow-lg py-[30px] px-6 mb-10">
+              <div class="flex items-center w-full">
+                <img src="src/img/twitter.png" alt="twitter" class="pointer-events-none mr-3">
+                <span class="inline-block">
+                  <h4 class="text-xl text-dark">Twitter</h4>
+                  <p class="text-sm text-secondary">Parahyangan, Bandung</p>
+                </span>
+              </div>
+              <div class="py-[30px]">
+                <h3 class="text-[22px] text-dark leading-9 transition duration-300 ease-in-out group-hover/item:text-white"><span class="text-5xl">$190K</span> / year</h3>
+                <p class="font-medium text-base text-primary leading-7 mt-5">User-Experience <br> Designer</p>
+                <span class="inline-block font-medium text-xs rounded-lg mt-1 p-2 bg-biru-muda text-biru">FULL TIME</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 xl:w-1/4">
+            <div class="bg-white rounded-xl shadow-lg py-[30px] px-6 mb-10">
+              <div class="flex items-center w-full">
+                <img src="src/img/google-icon.png" alt="google" class="pointer-events-none mr-3">
+                <span class="inline-block">
+                  <h4 class="text-xl text-dark">Google</h4>
+                  <p class="text-sm text-secondary">Cimahi, Bandung</p>
+                </span>
+              </div>
+              <div class="py-[30px]">
+                <h3 class="text-[22px] text-dark leading-9 transition duration-300 ease-in-out group-hover/item:text-white"><span class="text-5xl">$563K</span> / year</h3>
+                <p class="font-medium text-base text-primary leading-7 mt-5">Expert Software <br> Developer</p>
+                <span class="inline-block font-medium text-xs rounded-lg mt-1 p-2 bg-biru-muda text-biru">FULL TIME</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 xl:w-1/4">
+            <div class="bg-white rounded-xl shadow-lg py-[30px] px-6 mb-10">
+              <div class="flex items-center w-full">
+                <img src="src/img/amazon-icon-1.png" alt="amazon" class="pointer-events-none mr-3">
+                <span class="inline-block">
+                  <h4 class="text-xl text-dark">Amazon</h4>
+                  <p class="text-sm text-secondary">Ciputat, Jakarta</p>
+                </span>
+              </div>
+              <div class="py-[30px]">
+                <h3 class="text-[22px] text-dark leading-9 transition duration-300 ease-in-out group-hover/item:text-white"><span class="text-5xl">$921K</span> / year</h3>
+                <p class="font-medium text-base text-primary leading-7 mt-5">Expert Software <br> Developer</p>
+                <span class="inline-block font-medium text-xs rounded-lg mt-1 p-2 bg-biru-muda text-biru">FULL TIME</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 xl:w-1/4">
+            <div class="bg-white rounded-xl shadow-lg py-[30px] px-6 mb-10">
+              <div class="flex items-center w-full">
+                <img src="src/img/linkedin-icon.png" alt="linkedin" class="pointer-events-none mr-3">
+                <span class="inline-block">
+                  <h4 class="text-xl text-dark">LinkedIn</h4>
+                  <p class="text-sm text-secondary">Parung, Bogor</p>
+                </span>
+              </div>
+              <div class="py-[30px]">
+                <h3 class="text-[22px] text-dark leading-9 transition duration-300 ease-in-out group-hover/item:text-white"><span class="text-5xl">$21K</span> / year</h3>
+                <p class="font-medium text-base text-primary leading-7 mt-5">Human Resource <br> Development</p>
+                <span class="inline-block font-medium text-xs rounded-lg mt-1 p-2 bg-biru-muda text-biru">FULL TIME</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- VIEW MORE INCOMING JOBS -->
+        <div class="flex justify-center mt-5 lg:mt-10">
+          <a href="#" class="text-sm md:text-[18px] py-2 lg:py-4 underline hover:no-underline">VIEW MORE INCOMING JOBS</a>
+        </div>
+      </div>
+    </section>
+    <!-- Feature Jobs section end -->
+    <!-- subscribe start -->
+    <section id="subscribe" class="subscribe py-20">
+      <div class="container px-8">
+        <div class="w-full lg:w-[64%] flex flex-wrap relative overflow-hidden mx-auto bg-[#10495C] rounded-2xl py-14 lg:mt-10">
+          <img src="src/img/garis_bergelombang.png" alt="garis_bergelombang" class="absolute left-0 top-0 w-full h-full translate-y-1">
+          <!-- side right -->
+          <div class="w-full self-center px-10 text-center z-10">
+            <h2 class="text-white font-semibold text-lg lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight mb-2">Subscribe New Job</h2>
+            <p class="text-base font-medium text-secondary">We promise never send you a spam</p>
+            <!-- button -->
+            <div type="text" class="w-full xl:w-10/12 mt-5 lg:mt-14 mx-auto">
+              <form class="relative flex">
+                <input type="text" placeholder="Type your email address" class="w-full rounded-l-xl rounded-r-2xl font-medium text-sm md:text-[18px] text-secondary py-2 pl-4 lg:py-4 outline-none placeholder:opacity-50">
+                <button type="submit" class="absolute -right-3 font-semibold text-sm md:text-[18px] text-white bg-gold py-2 px-5 lg:py-[1.05rem] lg:px-10 rounded-full hover:bg-[#ed9737] ease-in-out duration-300 active:bg-opacity-50">Count Me In</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subscribe end -->
+  </main>
+  <!-- main end -->
+  <!-- footer start -->
+  <footer class="pb-12">
+    <div class="container">
+      <div class="w-full pt-10 border-t border-slate-700 dark:border-slate-500">
+        <p class="font-medium text-slate-500 text-center text-xs dark:text-dark">designed by <a href="https://shaynakit.com/landing" class="text-base font-bold text-primary">shaynakit</a><br>developer by <a href="https://shaynakit.com/landing" class="text-base font-bold text-primary">Dana Maulana</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>
